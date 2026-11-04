@@ -1,0 +1,25 @@
+title: Smile Optimistic Studio CIC
+description: Creative support for children's emotional wellbeing during and after long-term medical treatment.
+url: https://smileoptimisticstudio.github.io
+baseurl: "/sos-preview"
+lang: en-GB
+markdown: kramdown
+collections:
+  articles:
+    output: true
+    permalink: /knowledge/:name/
+defaults:
+  - scope:
+      path: ""
+      type: articles
+    values:
+      layout: article
+exclude:
+  - README.md
+  - HOW_TO_PUBLISH.md
+  - PREPUBLISH_CHECKLIST.md
+  - Gemfile
+  - Gemfile.lock
+  - original_backup
+plugins:
+  - jekyll-sitemap
