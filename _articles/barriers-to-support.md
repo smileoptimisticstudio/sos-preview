@@ -5,7 +5,7 @@ category: "Disability and support"
 kind: Essay
 image: "/assets/forms.jpg"
 image_alt: "Illustration of forms and exhaustion"
-order: 3
+date: 2026-11-03 09:03:00
 ---
 
 When does a necessary check become a barrier to support? I understand why disability benefit systems need careful assessments. Public money must be managed responsibly. Decisions need evidence.

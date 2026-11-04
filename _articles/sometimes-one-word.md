@@ -5,7 +5,7 @@ category: "Patient experience"
 kind: Essay
 image: "/assets/sometimes-one-word.svg"
 image_alt: "Typographic illustration: Sometimes one word tells an entire story"
-order: 1
+date: 2026-11-03 09:05:00
 ---
 
 Sometimes one word tells an entire story.

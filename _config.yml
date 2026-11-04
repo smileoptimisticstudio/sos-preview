@@ -8,12 +8,20 @@ collections:
   articles:
     output: true
     permalink: /knowledge/:name/
+  journal:
+    output: true
+    permalink: /studio-journal/:name/
 defaults:
   - scope:
       path: ""
       type: articles
     values:
       layout: article
+  - scope:
+      path: ""
+      type: journal
+    values:
+      layout: journal
 exclude:
   - README.md
   - HOW_TO_PUBLISH.md
@@ -21,5 +29,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - original_backup
+  - templates
 plugins:
   - jekyll-sitemap

@@ -6,6 +6,6 @@ permalink: /knowledge/
 ---
 <div class="wrap"><section class="pagehead"><div class="eyebrow">Writing · Perspectives · Learning</div><h1>Knowledge Hub</h1><p>Reflections on emotional support, childhood illness, disability and life beyond treatment. Lived-experience perspectives, not clinical guidance.</p></section>
 <div class="grid" style="padding-bottom:80px">
-{% assign ordered = site.articles | sort: 'order' %}{% for article in ordered %}
-<a class="tile" href="{{ article.url | relative_url }}"><img loading="lazy" alt="{{ article.image_alt | escape }}" src="{{ article.image | relative_url }}"><div class="body"><div class="date">{{ article.category | escape }} · {{ article.kind | default: 'Article' }}</div><h3>{{ article.title | escape }}</h3><p>{{ article.description | escape }}</p></div></a>
+{% assign ordered = site.articles | sort: 'date' | reverse %}{% for article in ordered %}
+{% include article-tile.html item=article %}
 {% endfor %}</div></div>

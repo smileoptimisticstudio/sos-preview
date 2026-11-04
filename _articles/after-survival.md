@@ -5,7 +5,7 @@ category: "Cancer survivorship"
 kind: Essay
 image: "/assets/after-survival.svg"
 image_alt: "Abstract illustration about life after cancer treatment"
-order: 2
+date: 2026-11-03 09:04:00
 ---
 
 When someone finishes cancer treatment, it is natural to celebrate. So much courage, care and effort has gone into reaching that moment. The relief is real, and so is the gratitude.

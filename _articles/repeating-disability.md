@@ -5,7 +5,7 @@ category: "Disability and support"
 kind: Essay
 image: "/assets/care.jpg"
 image_alt: "Editorial illustration about caregiving"
-order: 5
+date: 2026-11-03 09:01:00
 ---
 
 How many times should someone have to explain the same disability? One thing I've discovered while navigating the British support system is how much information a family has to provide. My daughter has an extensive medical history. Her conditions and the consequences of treatment are documented.

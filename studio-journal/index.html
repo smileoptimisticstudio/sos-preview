@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Studio Journal"
-description: "Studio Journal | Smile Optimistic Studio CIC"
+description: "Poster presentations, conference talks and professional activity of Smile Optimistic Studio CIC."
 permalink: "/studio-journal/"
 ---
-<div class="wrap"><section class="pagehead"><div class="eyebrow">Professional engagement</div><h1>Studio Journal</h1><p>Where our work meets professional practice: poster presentations, conference talks and ideas shaped through dialogue.</p></section><div class="grid two" style="padding-bottom:80px"><a class="tile" href="{{ "/studio-journal/london/" | relative_url }}"><img alt="" loading="lazy" src="{{ "/assets/london_main.jpg" | relative_url }}"/><div class="body"><div class="date">London · 26 June 2026</div><h3>Cards that help a child stay with a feeling</h3><p>Poster presentation at the SoHPS 3rd Annual Conference, UCLH London.</p></div></a><a class="tile" href="{{ "/studio-journal/leeds/" | relative_url }}"><img alt="" loading="lazy" src="{{ "/assets/leeds_talk.jpg" | relative_url }}"/><div class="body"><div class="date">Leeds · 2 October 2026</div><h3>The Hospital Joy Toolkit at Northern Study Day</h3><p>A presentation and professional dialogue with Health Play Specialists.</p></div></a></div></div>
+<div class="wrap"><section class="pagehead"><div class="eyebrow">Professional engagement</div><h1>Studio Journal</h1><p>Where our work meets professional practice: poster presentations, conference talks and ideas shaped through dialogue.</p></section><div class="grid two" style="padding-bottom:80px">{% assign entries = site.journal | sort: 'date' | reverse %}{% for j in entries %}{% include journal-tile.html item=j %}{% endfor %}</div></div>

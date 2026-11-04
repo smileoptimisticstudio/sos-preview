@@ -5,5 +5,5 @@ layout: default
 <p class="small">Yuliia Barsukova · Founder, Smile Optimistic Studio CIC</p>
 {% if page.image %}<img class="cover" src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}">{% endif %}
 {{ content }}
-<hr><p class="small">A personal perspective by Yuliia Barsukova. This article is not medical or benefits advice.</p>
+<hr><p class="small">{{ page.note | default: "A personal perspective by Yuliia Barsukova. This article is not medical or benefits advice." }}</p>
 <a class="btn ghost" href="{{ '/knowledge/' | relative_url }}">All articles</a></article>
