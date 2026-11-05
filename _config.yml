@@ -7,6 +7,7 @@ markdown: kramdown
 collections:
   articles:
     output: true
+    future: true
     permalink: /knowledge/:name/
   journal:
     output: true
